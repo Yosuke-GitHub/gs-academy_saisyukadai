@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+}
+
+body {
+  padding-top: 30px;
+}
+
+.container-fluid {
+  background: darkgreen;
+  border-color: darkgreen;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: darkgreen;
+  border-radius: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  color: white;
+  text-decoration: none;
+}
+
+.jumbotron {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 90%;
+  margin: 0 auto;
+}

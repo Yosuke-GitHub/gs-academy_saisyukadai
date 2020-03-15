@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  padding-top: 30px;
+}
+
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+  background: darkgreen;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.new-add a {
+  display: flex;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  justify-content: center;
+  background: #55e6c9;
+  width: 40px;
+  border-radius: 30px;
+  margin: 0 0 0 auto;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.jumbotron {
+  padding: 30px 15px;
+  background: #eeeeee;
+  border-radius: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.jumbotron ul {
+  list-style: none;
+}
+
+.todo {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.todo input {
+  margin-right: 10px;
+}
+
+.filter {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  background: greenyellow;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.filter-groups {
+  display: flex;
+  list-style: none;
+  width: 70%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.filter-btn {
+  width: 30%;
+}
+
+.filter-btn p {
+  font-size: 12px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  padding: 2px 5px;
+  width: 50px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.intro {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 0px;
+}
+
+.delete-btn {
+  width: 30%;
+}
+
+.delete-btn p {
+  font-size: 12px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  padding: 2px 2px;
+  text-align: center;
+  width: 50px;
+  cursor: pointer;
+}
+
+.function {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+}
